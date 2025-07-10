@@ -1,8 +1,14 @@
+// Start
 import React from 'react'
-import { ThemeProvider, createTheme } from '@mui/material/styles'
-import CssBaseline from '@mui/material/CssBaseline'
-import Container from '@mui/material/Container'
-import Typography from '@mui/material/Typography'
+
+import {
+  ThemeProvider, 
+  createTheme,
+  CssBaseline,
+  Container,
+  Button,
+  Typography,
+} from '@mui/material';
 
 const theme = createTheme({
   palette: {
@@ -21,6 +27,23 @@ export default function App() {
         <Typography>
           Update the theme to use dark mode and set the primary color to green.
         </Typography>
+        <Button 
+          variant='contained'
+          sx={{
+            my: 2
+          }}
+        >
+          Primary
+        </Button>
+        <Button 
+          color="secondary"
+          variant='contained'
+          sx={{
+            m: 2
+          }}
+        >
+          Secondary
+        </Button>
       </Container>
     </ThemeProvider>
   )

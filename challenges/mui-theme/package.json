@@ -1,6 +1,6 @@
 {
-  "name": "mui-theme-challenge",
-  "version": "1.0.0",
+  "name": "mui-theme",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "dev": "vite",
